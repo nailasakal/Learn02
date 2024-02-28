@@ -5,25 +5,33 @@
   </head>
   <body>
     <p id="user_var"></p>
+    <!-- Elemen untuk menampilkan nilai z1 (variabel menggunakan 'var') -->
     <p id="user_let"></p>
+    <!-- Elemen untuk menampilkan nilai z2 (variabel menggunakan 'let') -->
     <p id="user_nothing"></p>
+    <!-- Elemen untuk menampilkan nilai z3 (variabel tanpa deklarasi menggunakan 'var' atau 'let') -->
     <script>
-      //use var
+      // Deklarasi variabel menggunakan 'var'
       var x1 = 5;
       var y1 = 6;
       var z1 = x1 + y1;
+      // Menetapkan nilai z1 ke dalam elemen dengan id "user_var"
       document.getElementById("user_var").innerHTML =
         "The value of Z if using var variable is:" + z1;
-      //use let
+
+      // Deklarasi variabel menggunakan 'let'
       let x2 = 5;
       let y2 = 6;
       let z2 = x2 + y2;
+      // Menetapkan nilai z2 ke dalam elemen dengan id "user_let"
       document.getElementById("user_let").innerHTML =
         "The value of Z if using let variable is:" + z2;
-      //use nothing
+
+      // Deklarasi variabel tanpa menggunakan 'var' atau 'let'
       x3 = 5;
       y3 = 6;
       z3 = x3 + y3;
+      // Menetapkan nilai z3 ke dalam elemen dengan id "user_nothing"
       document.getElementById("user_nothing").innerHTML =
         "The value of Z if using nothing variable is:" + z3;
     </script>

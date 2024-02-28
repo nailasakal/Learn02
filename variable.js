@@ -1,7 +1,7 @@
 ///kata kunci const(kostanta) a sebuah value yang tidak akan dapat berubah kecuali menggunakan tipe data object dan array
-// const name = "naela";
-// // name = "eduwork";
-// console.log(name);
+const name = "naela";
+// name = "eduwork";
+console.log(name);
 
 ///Contoh menggunakan tipe data object
 // const student = {
